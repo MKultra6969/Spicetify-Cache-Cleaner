@@ -22,7 +22,7 @@ Executes on startup.
 
 ## Install
 
-Copy `cacheCleaner.js` into your [Spicetify](https://github.com/spicetify/spicetify-cli) extensions directory:
+Copy `MKcacheCleaner.js` into your [Spicetify](https://github.com/spicetify/spicetify-cli) extensions directory:
 | **Platform** | **Path** |
 |------------|------------------------------------------------------------------------------------------|
 | **Linux** | `~/.config/spicetify/Extensions` or `$XDG_CONFIG_HOME/.config/spicetify/Extensions/` |
@@ -32,7 +32,7 @@ Copy `cacheCleaner.js` into your [Spicetify](https://github.com/spicetify/spicet
 After putting the extension file into the correct folder, run the following command to install the extension:
 
 ```
-spicetify config extensions cacheCleaner.js
+spicetify config extensions MKcacheCleaner.js
 spicetify apply
 ```
 
@@ -44,7 +44,7 @@ Example:
 ```ini
 [AdditionalOptions]
 ...
-extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|cacheCleaner.js
+extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|MKcacheCleaner.js
 ```
 
 Then run:
